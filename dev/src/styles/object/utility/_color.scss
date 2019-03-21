@@ -1,0 +1,21 @@
+.u-color {
+	&--white {
+		color: $color--white;
+	}
+	&--black {
+		color: #000;
+	}
+	&--red {
+		color: $color--red;
+	}
+	&--green {
+		color: $color--green;
+	}
+	&--blue {
+		color: $color--blue;
+	}
+	&--bt--red {
+		&:link, &:visited { color: #fff; }
+		&:hover, &:active { color: #ffde00; }
+	}
+}
